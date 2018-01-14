@@ -1,0 +1,46 @@
+#container #form{
+	margin: 5%;
+	margin-bottom: 0%;	
+	padding-bottom: 5%;
+	background-color: #eee;
+	font-size: 16px;
+	font-family: Times;
+
+}
+
+
+#container #form .divisions{
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#container #form .personal1{
+	margin: 8px;
+	width: 35%;
+	height: 27px;
+	border: 1px solid #000;
+	caption-side: bottom;
+	padding: 2px;
+	font-size: 16px;
+	font-family: Times;
+}
+#container #form .personal2{
+	margin: 8px;
+	width: 60%;
+	height: 27px;
+	border: 1px solid #000;
+	caption-side: bottom;
+	padding: 2px;
+	font-size: 16px;
+	font-family: Times;	
+}
+
+#container #form p{
+	padding: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 12px;
+	padding-right: 10px;
+}

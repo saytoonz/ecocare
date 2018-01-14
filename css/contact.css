@@ -1,0 +1,27 @@
+#contactall{
+	margin: 10px auto 20px;
+	min-width: 40%;
+	max-width: 60%;
+	background-color: #fffeee;
+	border-radius: 10px;
+	box-shadow: 2px 5px 10px rgba(0,0,0,0.8)
+}
+#contactall input[type="text"],input[type="email"],textarea{
+	min-width: 65%;
+	max-width: 90%;
+	padding: 5px;
+	margin: 2px auto 2px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	font-family: Times;
+}
+#contactall input[type="submit"]{
+	font-family: Lucida Bright;
+	font-size: 16px;
+	color: #fff;
+	background-color: #BD582C;
+	border: 2px solid #fff;
+	padding: 10px;
+	float: right;
+	margin-right: 10%;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecocare</title>
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<!--------------       The Center-white Div         ------------>
+	<div id="container">
+		
+		<!--------------       The Nav Div         ------------>
+		<div id="nav">
+			<a href="index.html">
+				<img src="images/logo.png" height="90px" >
+			</a>
+			<div id="navLinks">
+				<a href="index.html">Home</a>
+				<a href="why.html">Why Ecocare?</a><div id="the_break"><br></div>
+				<a href="gallery.php">Gallery</a>
+				<a href="about.html">About Us</a>
+				<a href="contact.php">Contact-Us</a>
+			</div>
+		</div>
+
+		<!--------------       The Nav2 Div         ------------>
+		<center>
+		<div id="nav2">
+			<a href="index.html">
+				<img src="images/logo.png" height="50px" >
+				<font> EcoCare </font>
+			</a>
+			<div id="navLinks">
+				<a href="index.html">Home</a>
+				<a href="why.html">Why Ecocare?</a><div id="the_break"><br></div>
+				<a href="gallery.php">Gallery</a>
+				<a href="about.html">About Us</a>
+				<a href="contact.php">Contact-Us</a>
+			</div>
+		</div>
+		</center>
+		<hr style="margin: auto; color: #ccc;background-color: #ccc; width: 95%; height: 3px;">
+
+
+
+		<!---------------        Slide Show -------------->
+		<div id="slides">
+			<img class="mySlides" src="images/slides/Slide1.JPG">
+			<img class="mySlides" src="images/slides/Slide2.JPG">
+			<img class="mySlides" src="images/slides/Slide3.JPG">
+			<img class="mySlides" src="images/slides/Slide4.JPG">
+			<img class="mySlides" src="images/slides/Slide5.JPG">
+			<img class="mySlides" src="images/slides/Slide6.JPG">
+			<img class="mySlides" src="images/slides/Slide7.JPG">
+			<img class="mySlides" src="images/slides/Slide8.JPG">
+			<img class="mySlides" src="images/slides/Slide9.JPG">
+			<img class="mySlides" src="images/slides/Slide10.JPG">
+			<img class="mySlides" src="images/slides/Slide11.JPG">
+			<img class="mySlides" src="images/slides/Slide12.JPG">
+			<img class="mySlides" src="images/slides/Slide13.JPG">
+			<img class="mySlides" src="images/slides/Slide14.JPG">
+			<img class="mySlides" src="images/slides/Slide15.JPG">
+			<img class="mySlides" src="images/slides/Slide16.JPG">
+			<img class="mySlides" src="images/slides/Slide17.JPG">
+			<img class="mySlides" src="images/slides/Slide18.JPG">
+			<img class="mySlides" src="images/slides/Slide19.JPG">
+			<img class="mySlides" src="images/slides/Slide20.JPG">
+			<img class="mySlides" src="images/slides/Slide21.JPG">
+			<img class="mySlides" src="images/slides/Slide22.JPG">
+			<img class="mySlides" src="images/slides/Slide23.JPG">
+
+			<button class="leftButton" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="rightButton" onclick="plusDivs(1)">&#10095;</button>
+
+		</div>
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    for (i = 0; i < x.length; i++) {
+	       x[i].style.display = "none";  
+	    }
+	    myIndex++;
+	    if (myIndex > x.length) {myIndex = 1}    
+	    x[myIndex-1].style.display = "block";  
+	    setTimeout(carousel, 5000); 
+	}
+</script>
+
+
+		<center>
+			<div id="ads">
+				<a href="#" style="text-decoration: none;">
+					<img src="ADs/nvd2017.gif" width="60%" height="100px">
+				</a>
+			</div>
+		</center>
+	
+
+
+		<div id="centerdivs">
+			<div class="CC3" onmouseenter="addOurContributions()" onmouseleave="addOurContributions2()"onclick="location.replace('about.html');">
+				<div id="addOurContributions" style="display: none;">
+					SDG 5: Achieving gender equality and empower all girls...... SDG 6: Ensure availability and sustainable management of water and sanitation for all.......
+				</div>	
+				<div id="addOurContributions2">
+					<div id="bbr"><br><br><br></div>
+					Our Contri-<br>bution to SDGs
+				</div>
+			</div>
+
+
+			<div class="CC2" onmouseenter="addDetailsEnterprise()" onmouseleave="addDetailsEnterprise2()" onclick="location.replace('about.html');">
+				<div id="addDetailsEnterprise" style="display: none;">
+					What makes a promising and Inovative Idea to be Selected for SAG-SEED Starters, GYSEC 2017, TEDxAccra pitch etc?       1. I have a great idea with a global interest not only for the benefit of my country....
+				</div>	
+				<div id="addDetailsEnterprise2">
+				<div id="bbr"><br><br><br></div>
+					Details of Our<br>Enterprise
+				</div>
+			</div>
+
+
+			<div class="CC1" onmouseenter="addVission()" onmouseleave="addVission2()" onclick="location.replace('about.html');">
+				<div id="addVission" style="display: none;">
+					Our vision is to see a world without waste And Our mission is to challenge the world's wasteful paradigm and throw-away culture by giving value to waste while advocating against waste generation.
+				</div>	
+				<div id="addVission2">
+					<div id="bbr"><br><br><br></div>
+					Our Vision<br>and  Mission
+				</div>
+			</div>
+
+
+
+			<br>
+
+
+
+			<div class="CC6" onmouseenter="staffsImages()" onmouseleave="staffsImagesoff()" onclick="location.replace('gallery.php?Felix');">
+				<div id="ourStaffs">
+				<div id="bbr6"><br><br><br></div>
+					Our<br>Staffs
+				</div>
+				<div id="staffImgs" style="display: none;">
+					<img src="images/say.gif" width="100%" height="220px">
+				</div>
+			</div>
+
+
+
+
+			<div id="CC5" class="CC5" onmouseenter="addHowsubstainableIsYourIdea()" onmouseleave="addHowsubstainableIsYourIdea2()" onclick="location.replace('about.html');">
+				<div id="addHowsubstainableIsYourIdea" style="display: none;">
+					We hope to use the following Social, Environmental and Economic (TBL/PPP) approaches to make our project sustainable:     1. In-depth Research .....
+				</div>	
+				<div id="addHowsubstainableIsYourIdea2">
+					<div id="bbr"><br><br><br></div>
+					How Sustainable is Your Idea?
+				</div>
+			</div>
+
+
+			<div class="CC4" onmouseenter="addProblemstoSolve()" onmouseleave="addProblemstoSolve2()" onclick="location.replace('about.html');">
+				<div id="addProblemstoSolve" style="display: none;">
+					1. The throw-away culture of Ghanaians lead to indiscriminate disposal of municipal and industrial waste -  creating huge challenge in waste collection for Zoomlion.....
+				</div>	
+				<div id="addProblemstoSolve2">
+					<div id="bbr"><br><br><br></div>
+					The key Problems we Identified to Solve 
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<center>
+			<div id="ads">
+				<a href="#" style="text-decoration: none;">
+					<img src="ADs/nvd2017.gif" width="50%" height="100px">
+				</a>
+			</div>
+		</center>
+
+
+	</div>
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+	// Display and hide vision and mision	
+	function addVission() {
+		document.getElementById('addVission').style.display="block";
+		document.getElementById('addVission2').style.display="none";
+	};
+
+	function addVission2() {
+		document.getElementById('addVission').style.display="none";
+		document.getElementById('addVission2').style.display="block";
+	};
+
+
+
+	// Display and hide Details of our enterprice
+	function addDetailsEnterprise() {
+		document.getElementById('addDetailsEnterprise').style.display="block";
+		document.getElementById('addDetailsEnterprise2').style.display="none";
+	};
+
+	function addDetailsEnterprise2() {
+		document.getElementById('addDetailsEnterprise').style.display="none";
+		document.getElementById('addDetailsEnterprise2').style.display="block";
+	};
+
+
+
+
+
+	// Display and hide Our Contributions to SGDs
+	function addOurContributions() {
+		document.getElementById('addOurContributions').style.display="block";
+		document.getElementById('addOurContributions2').style.display="none";
+	};
+
+	function addOurContributions2() {
+		document.getElementById('addOurContributions').style.display="none";
+		document.getElementById('addOurContributions2').style.display="block";
+	};
+
+
+
+
+	// Display and hide Problems to solve
+	function addProblemstoSolve() {
+		document.getElementById('addProblemstoSolve').style.display="block";
+		document.getElementById('addProblemstoSolve2').style.display="none";
+	};
+
+	function addProblemstoSolve2() {
+		document.getElementById('addProblemstoSolve').style.display="none";
+		document.getElementById('addProblemstoSolve2').style.display="block";
+	};
+
+
+
+
+
+	// Display and hide Problems to solve
+	function addHowsubstainableIsYourIdea() {
+		document.getElementById('addHowsubstainableIsYourIdea').style.display="block";
+		document.getElementById('addHowsubstainableIsYourIdea2').style.display="none";
+	};
+
+	function addHowsubstainableIsYourIdea2() {
+		document.getElementById('addHowsubstainableIsYourIdea').style.display="none";
+		document.getElementById('addHowsubstainableIsYourIdea2').style.display="block";
+	};
+
+
+
+
+
+
+	function staffsImages() {
+		document.getElementById("ourStaffs").style.display="none";
+		document.getElementById("staffImgs").style.display="block";
+	}
+	function staffsImagesoff() {
+		document.getElementById("ourStaffs").style.display="block";
+		document.getElementById("staffImgs").style.display="none";
+	}
+</script>
+
+
+<!------------------           Footer            ------------------------>
+		<div id="footer">
+
+			<div id="quiskLinks">
+				<center style="text-align: right;">
+					<div class="footer_head">
+						Quick Links
+					</div>
+					<a href="index.html">Home</a><br>
+					<a href="why.html">Why Ecocare?</a><br>
+					<a href="gallery.php">Gallery</a><br>
+					<a href="about.html">About Us</a><br>
+					<a href="contact.php">Contact Us</a>
+				</center>
+			</div>
+			<div id="social">
+				<center>
+					<div class="footer_head">
+						Social Media
+					</div>
+					<br>
+					<a href="http://twitter.com/JACKSONNYARKO1" style="margin: 2px;"><img class="socialmedia" height="25px" width="25px" src="images/twitter.png"></a>
+					<a href="http://www.facebook.com/themotivator5" style="margin: 2px;"><img class="socialmedia" height="25px" width="25px"  src="images/fb.png"></a>
+
+					<a href="http://mailto:nyarkojackso@gmail.com" style="margin: 2px;"><img class="socialmedia" height="25px" width="25px"  src="images/gmail.png"></a>
+					<br><br>
+					Copyright &copy; 2017
+
+					<div>
+						<span style="font-size: 14px; font-family: Lucida Calligraphy; color: #ccc;">Powered by</span> <span style="font-size: 16px; font-family: Lucida Fax; color: #fff;"><a href="http://www.nsromapa.com" style="color: inherit; text-decoration: none;">NSROMAPA</a></span>
+					</div>
+				</center>
+			</div>
+
+	
+			<div id="cInfo" style="width: 55%;">				
+				<center style="text-align: left; padding-left: 10px; padding-right: 10px;">
+					<div class="footer_head">
+						Contact Info
+					</div>
+					P. O. Box GS 119<br>
+					Goaso Brong Ahafo<br>
+					Ghana West Africa<br>
+					Tel: 0249005270 / 0201096181<br>
+				</center>
+			</div><br><br><br>
+		</div>
+</body>
+</html>
